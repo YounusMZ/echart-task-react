@@ -21,7 +21,7 @@ function getAlcoholColorHueData() : number[][] {
 
     colorHue.push(colorIntensity);
     colorHue.push(element.Hue);
-;
+
     alcoholColorHue.push(colorHue);
   })
 
