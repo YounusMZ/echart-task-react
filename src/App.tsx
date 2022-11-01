@@ -4,7 +4,7 @@ import Scatter from './Components/Scatter';
 import BarGraph from './Components/BarGraph';
 import './App.css';
 
-/* Get data for Scatter Plot */ */
+/* Get data for Scatter Plot */
 function getAlcoholColorHueData() : number[][] {
   const alcoholColorHue : number[][] = [];
 
