@@ -35,12 +35,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.18.3"],\
             ["@types/react", "npm:18.0.24"],\
             ["@types/react-dom", "npm:18.0.8"],\
+            ["echarts", "npm:5.4.0"],\
             ["echarts-for-react", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:3.0.2"],\
             ["eslint-config-react-app", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:7.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:18.2.0"],\
             ["react-scripts", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:5.0.1"],\
             ["tsd", "npm:0.24.1"],\
+            ["tslib", "npm:2.4.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -7913,16 +7915,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.18.3"],\
             ["@types/react", "npm:18.0.24"],\
             ["@types/react-dom", "npm:18.0.8"],\
+            ["echarts", "npm:5.4.0"],\
             ["echarts-for-react", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:3.0.2"],\
             ["eslint-config-react-app", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:7.0.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:18.2.0"],\
             ["react-scripts", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:5.0.1"],\
             ["tsd", "npm:0.24.1"],\
+            ["tslib", "npm:2.4.1"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["echarts", [\
+        ["npm:5.4.0", {\
+          "packageLocation": "./.yarn/cache/echarts-npm-5.4.0-23aa9c2dad-81fb304e53.zip/node_modules/echarts/",\
+          "packageDependencies": [\
+            ["echarts", "npm:5.4.0"],\
+            ["tslib", "npm:2.3.0"],\
+            ["zrender", "npm:5.4.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["echarts-for-react", [\
@@ -7939,7 +7954,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["echarts-for-react", "virtual:9f6e7146f0c5412ebe31c0d81118274ed483e3d2e13a591eb0c7bfdd8558ba7c2af049478ec7be0c1a4e53b47eeb059b9822d3c1fb4233db419c33c4f4d0ce95#npm:3.0.2"],\
             ["@types/echarts", null],\
             ["@types/react", "npm:18.0.24"],\
-            ["echarts", null],\
+            ["echarts", "npm:5.4.0"],\
             ["fast-deep-equal", "npm:3.1.3"],\
             ["react", "npm:18.2.0"],\
             ["size-sensor", "npm:1.0.1"]\
@@ -16960,6 +16975,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["npm:2.3.0", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.3.0-277e75e108-8869694c26.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:2.4.1", {\
           "packageLocation": "./.yarn/cache/tslib-npm-2.4.1-36f0ed04db-19480d6e03.zip/node_modules/tslib/",\
           "packageDependencies": [\
@@ -18171,6 +18193,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yocto-queue-npm-0.1.0-c6c9a7db29-f77b3d8d00.zip/node_modules/yocto-queue/",\
           "packageDependencies": [\
             ["yocto-queue", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["zrender", [\
+        ["npm:5.4.0", {\
+          "packageLocation": "./.yarn/cache/zrender-npm-5.4.0-042daa363a-913cfd5306.zip/node_modules/zrender/",\
+          "packageDependencies": [\
+            ["zrender", "npm:5.4.0"],\
+            ["tslib", "npm:2.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
